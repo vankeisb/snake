@@ -3,8 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Snake</title>
+    <style>
+        canvas {
+            position: absolute;
+        }
+        #game-over {
+            display: none;
+            position: absolute;
+            z-index: 100;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+        }
+    </style>
 </head>
 <body>
+<div id="game-over">
+    GAME OVER
+</div>
 <script src="snake.js"></script>
 </body>
 </html>
